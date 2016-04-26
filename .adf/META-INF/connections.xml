@@ -1,0 +1,41 @@
+<References xmlns="http://xmlns.oracle.com/adf/jndi">
+  <Reference name="hr_cloud" className="oracle.jdeveloper.db.adapter.DatabaseProvider" credentialStoreKey="hr_cloud"
+             xmlns="">
+    <Factory className="oracle.jdevimpl.db.adapter.DatabaseProviderFactory1212"/>
+    <RefAddresses>
+      <StringRefAddr addrType="SSH.Host">
+        <Contents>140.86.1.19</Contents>
+      </StringRefAddr>
+      <SecureRefAddr addrType="SSH.User"/>
+      <StringRefAddr addrType="SSH.Enabled">
+        <Contents>true</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="sid">
+        <Contents>ORCL</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="SSH.LocalFile">
+        <Contents>C:\Users\tkoffi\Desktop\mes events\Abidjan MW Cloud Technical Workshop
+                  days\JCS_DeVCS\docs\rsa-key-v2.ppk</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="oraDriverType">
+        <Contents>thin</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="hostname">
+        <Contents>140.86.1.19</Contents>
+      </StringRefAddr>
+      <SecureRefAddr addrType="password"/>
+      <StringRefAddr addrType="subtype">
+        <Contents>oraJDBC</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="port">
+        <Contents>1521</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="SSH.Port">
+        <Contents>22</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="user">
+        <Contents>c##hr</Contents>
+      </StringRefAddr>
+    </RefAddresses>
+  </Reference>
+</References>
